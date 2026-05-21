@@ -1,16 +1,16 @@
 import React from 'react'
 import Top from './Top'
+import Bottom from './Bottom'
+import Navbar from './FlowingMenu'
 
 const Video = () => {
   return (
     <div className='bg-cover h-screen w-screen relative'>
-      <video autoPlay loop muted src='\public\video.mp4'></video>
-      <Top/>
+      <video autoPlay loop muted src='/video.mp4'></video>
       <div>
-        <h1 className='w-screen h-20 text-9xl flex flex-between  justify-center absolute top-[30%]  uppercase text-[#F5F3EE] font-bold '>
-        ideas that <br /> move brands
-          <br />forward
-        </h1>
+      <Navbar/>
+        <Top/>
+        <Bottom/>
       
       </div>
     </div>

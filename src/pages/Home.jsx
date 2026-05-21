@@ -1,13 +1,12 @@
-import React from 'react'
-import Video from '../components/home/Video'
-import Top from '../components/home/Top'
+import React from "react";
+import Hero from "../components/home/Hero";
 
 const Home = () => {
   return (
-    <div className='h-screen w-screen'>
-      <Video/>
-    </div>
-  )
-}
+    <main className="w-full min-h-screen">
+      <Hero />
+    </main>
+  );
+};
 
-export default Home
+export default Home;
